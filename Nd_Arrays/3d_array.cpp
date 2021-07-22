@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int arr[3][3][3];
+    int arr[3][3][3]; // uninitialized
 
     for (int i = 0; i < 3; i++) {
         std::cout << "Level " << i << std::endl;
