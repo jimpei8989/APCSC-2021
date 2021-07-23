@@ -3,7 +3,7 @@
 
 int main() {
     int arr[][3] = {{1, 2, 3}, {4, 5}, {6}};
-    std::cout << "arr:\t" << static_cast<void*>(arr) << std::endl;
+    std::cout << "arr:\t" << arr << std::endl;
     std::cout << "arr[0]:\t" << arr[0] << std::endl;
     std::cout << "arr[1]:\t" << arr[1] << std::endl;
 
