@@ -1,8 +1,6 @@
 #include <iostream>
 
-int f(int n) { return n % 2 ? 3 * n + 1 : n / 2; }
-
-void g(int n){};
+int f(int n);
 
 int main() {
     int n;
@@ -18,3 +16,5 @@ int main() {
     // 3) call it without catching it
     f(n);
 }
+
+int f(int n) { return n % 2 ? 3 * n + 1 : n / 2; }
