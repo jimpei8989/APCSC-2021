@@ -1,3 +1,5 @@
+#include "function09.h"
+
 #include <cmath>
 
 bool solve_quadratic(int a, int b, int c, double &x1, double &x2) {

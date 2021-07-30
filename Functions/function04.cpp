@@ -1,3 +1,5 @@
+#include "function04.h"
+
 #include <algorithm>
 #include <cstdlib>
 
