@@ -1,11 +1,14 @@
-#include "function04.h"
+#include "lib0218.h"
 
 #include <algorithm>
-#include <cstdlib>
+
+long long int my_abs(int x) {
+    return x > 0 ? x : -1L * x;
+}
 
 int cmp(int a, int b) {
-    if (abs(a) != abs(b)) {
-        return abs(a) < abs(b);
+    if (my_abs(a) != my_abs(b)) {
+        return my_abs(a) < my_abs(b);
     } else {
         return a < b;
     }
